@@ -3,3 +3,14 @@
 /* https://pngtree.com/freepng/cute-cartoon-flower-wallpaper_8714291.html */
 /* Bogota background */
 /* https://www.freepik.es/vector-premium/patron-fisuras-palomas-dibujos-animados-sobre-fondo-oscuro_24631276.htm */
+
+
+.container {
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.7); /* Color blanco con opacidad 0.5 */
+    padding: 20px 20px;
+    border-radius:10px;
+    height: 80%; 
+    overflow:auto;
+    margin: 5%
+  }
