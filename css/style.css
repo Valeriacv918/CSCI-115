@@ -17,7 +17,8 @@ body {
     background-position: center;
     }
 .img-header{
-width: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .menu ul {
@@ -41,9 +42,17 @@ width: 100%;
 .container {
     align-self: center;
     background-color: rgba(255, 255, 255, 0.7); /* Color blanco con opacidad 0.5 */
-    padding: 20px 20px;
+    padding: 20px;
     border-radius:10px;
     height: 80%; 
     overflow:auto;
-    margin: 5%
+    /* margin: 5%; */
+    margin-top: 100px;
+    margin-bottom: 20px;
+    position:relative;
   }
+
+  .titles{
+    font-family:"Papyrus";
+  }
+  
