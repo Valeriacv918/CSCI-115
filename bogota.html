@@ -10,32 +10,17 @@
   <style type="text/css">
     body {
       background-image: url(img/bg-bog.avif);
-      background-size: contain;
-      background-repeat: repeat;
-      background-attachment: scroll;
-      background-position: center;
     }
-
-    .menu ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
+    .navbar-middle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
     }
-
-    .menu li {
-      padding: 8px;
-      margin-bottom: 7px;
-      background-color: #33b5e5;
-      color: #ffffff;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    }
-
-    .menu li:hover {
-      background-color: #0099cc;
-    }
-
-    #img-header-bog {
-      width: 100%;
+    .navbar-middle span{
+      font-family:'Andina Regular';
+      font-weight:bold;
+      
     }
   </style>
 </head>
@@ -44,6 +29,9 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Colombia Travel</a>
+      <div class="navbar-middle">
+        <span>Bogota</span>
+      </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -76,7 +64,7 @@
   <div class="container">
     <div class="header">
       <h1>Bogotá</h1>
-      <img id="img-header-bog" src="img/head-bog.jpeg" alt="Bogota sights ">
+      <img class="img-header" src="img/head-bog.jpeg" alt="Bogota sights ">
     </div>
     <br>
 

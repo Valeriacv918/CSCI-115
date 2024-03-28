@@ -3,7 +3,40 @@
 /* https://pngtree.com/freepng/cute-cartoon-flower-wallpaper_8714291.html */
 /* Bogota background */
 /* https://www.freepik.es/vector-premium/patron-fisuras-palomas-dibujos-animados-sobre-fondo-oscuro_24631276.htm */
+@font-face {
+    font-family: 'Andina Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Andina Regular'), url('Andina free.woff') format('woff');
+    }
 
+body {
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center;
+    }
+.img-header{
+width: 100%;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: gray;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+  .menu li:hover {
+    background-color: dimgray;
+  }
 
 .container {
     align-self: center;
