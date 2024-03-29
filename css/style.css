@@ -5,7 +5,8 @@
 /* https://www.freepik.es/vector-premium/patron-fisuras-palomas-dibujos-animados-sobre-fondo-oscuro_24631276.htm */
 /* Cartagena background */
 /* https://www.istockphoto.com/search/2/image?mediatype=illustration&phrase=cartagena */
-
+/* Corazon colombia */
+/* https://www.istockphoto.com/search/2/image?mediatype=illustration&phrase=cartagena+colombia */
 
 @font-face {
     font-family: 'Andina Regular';
@@ -73,3 +74,13 @@ body {
     font-weight:bold;
     
   }
+
+  .floating-image {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombras suave */
+    transition: box-shadow 0.3s ease; /* Transición suave */
+}
+/* Efecto de elevación al pasar el cursor sobre la imagen */
+.floating-image:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombras más pronunciada al pasar el cursor */
+    transform: translateY(-4px); /* Elevación de 4px */
+}
