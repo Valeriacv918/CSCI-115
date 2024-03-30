@@ -48,16 +48,16 @@ body {
     color: #ffffff;
   }
 
-.container {
-    align-self: center;
-    background-color: rgba(255, 255, 255, 0.7); /* Color blanco con opacidad 0.5 */
-    padding: 20px;
-    border-radius:10px;
-    height: 80%; 
-    overflow:auto;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    position:relative;
+    .container-pages { 
+        align-self: center;
+        background-color: rgba(255, 255, 255, 0.7); /* Color blanco con opacidad 0.5 */
+        padding: 20px;
+        border-radius:10px;
+        height: 80%; 
+        overflow:auto;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        position:relative;
   }
 
   .titles{
@@ -77,10 +77,13 @@ body {
 
   .floating-image {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombras suave */
-    transition: box-shadow 0.3s ease; /* Transición suave */
+    transition: box-shadow 0.3s ease;
 }
 /* Efecto de elevación al pasar el cursor sobre la imagen */
-.floating-image:hover {
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombras más pronunciada al pasar el cursor */
-    transform: translateY(-4px); /* Elevación de 4px */
-}
+    .floating-image:hover {
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombras más pronunciada al pasar el cursor */
+        transform: translateY(-4px); /* Elevación de 4px */
+    }
+
+   
+
