@@ -1,89 +1,79 @@
-/* Medellin background */
+/* <!-- VALERIA CARDONA VELASQUEZ  */
+/* STUDENT ID: 667053748 */
 
-/* https://pngtree.com/freepng/cute-cartoon-flower-wallpaper_8714291.html */
-/* Bogota background */
-/* https://www.freepik.es/vector-premium/patron-fisuras-palomas-dibujos-animados-sobre-fondo-oscuro_24631276.htm */
-/* Cartagena background */
-/* https://www.istockphoto.com/search/2/image?mediatype=illustration&phrase=cartagena */
 /* Corazon colombia */
 /* https://www.istockphoto.com/search/2/image?mediatype=illustration&phrase=cartagena+colombia */
 
 @font-face {
-    font-family: 'Andina Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Andina Regular'), url('Andina free.woff') format('woff');
-    }
+  font-family: "Andina Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Andina Regular"), url("Andina free.woff") format("woff");
+}
 
 body {
-    background-size: contain;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-position: center;
-    }
-.img-header{
-    width: 100%;
-    object-fit: cover;
+  background-size: contain;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: center;
+}
+.img-header {
+  width: 100%;
+  object-fit: cover;
 }
 
 .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .menu li {
-    padding: 8px;
-    margin-bottom: 7px;
-    background-color: gray;
-    color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-  .menu li:hover {
-    background-color: dimgray;
-  }
-  .menu li a{
-    text-decoration: none;
-    color: #ffffff;
-  }
-
-    .container-pages{ 
-        align-self: center;
-        background-color: rgba(255, 255, 255, 0.7); /* Color blanco con opacidad 0.5 */
-        padding: 20px;
-        border-radius:10px;
-        height: 80%; 
-        overflow:auto;
-        margin-top: 100px;
-        margin-bottom: 20px;
-        position:relative;
-  }
-
-  .titles{
-    font-family:"Papyrus";
-  }
-  .navbar-middle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-  }
-  .navbar-middle span{
-    font-family:'Andina Regular';
-    font-weight:bold;
-    
-  }
-
-  .floating-image {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombras suave */
-    transition: box-shadow 0.3s ease;
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: gray;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
-/* Efecto de elevación al pasar el cursor sobre la imagen */
-    .floating-image:hover {
-        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombras más pronunciada al pasar el cursor */
-        transform: translateY(-4px); /* Elevación de 4px */
-    }
 
-   
+.menu li:hover {
+  background-color: dimgray;
+}
+.menu li a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
+.container-pages {
+  align-self: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  height: 80%;
+  overflow: auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.titles {
+  font-family: "Papyrus";
+}
+.navbar-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-middle span {
+  font-family: "Andina Regular";
+  font-weight: bold;
+}
+
+.floating-image {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+.floating-image:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-4px); 
+}
